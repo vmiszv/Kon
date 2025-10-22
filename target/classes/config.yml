@@ -1,0 +1,46 @@
+animals:
+  horse:
+    enabled: true # false if you want to disable
+    default_health: 26.0
+    default_speed: 0.25
+    default_jump: 0.7
+    death_cooldown: 60000 # in ms
+    speed_increment: 0.01
+    speed_max: 0.35
+    speed_cost: 5 # in minecraft player lvl
+    health_increment: 2.0
+    health_max: 40.0
+    health_cost: 5
+    jump_increment: 0.05
+    jump_max: 1.0
+    jump_cost: 5
+  donkey:
+    enabled: true
+    default_health: 26.0
+    default_speed: 0.175
+    default_jump: 0.5
+    death_cooldown: 60000
+    speed_increment: 0.01
+    speed_max: 0.35
+    speed_cost: 5
+    health_increment: 2.0
+    health_max: 40.0
+    health_cost: 5
+    jump_increment: 0.0
+    jump_max: 0.5
+    jump_cost: 0
+  camel:
+    enabled: true
+    default_health: 32.0
+    default_speed: 0.2
+    default_jump: 0.5
+    death_cooldown: 60000
+    speed_increment: 0.01
+    speed_max: 0.35
+    speed_cost: 5
+    health_increment: 2.0
+    health_max: 48.0
+    health_cost: 5
+    jump_increment: 0.0
+    jump_max: 0.5
+    jump_cost: 0

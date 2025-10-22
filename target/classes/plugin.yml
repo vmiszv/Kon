@@ -1,0 +1,16 @@
+name: Kon
+version: ${project.version}
+main: me.misz.kon.Kon
+api-version: 1.21
+commands:
+  kon:
+    description: Call your horse like in the witcher 3
+    usage: /<command> [help|get|reload]
+    permission: kon.use
+permissions:
+  kon.use:
+    description: let you use /kon get & /kon help
+    default: op
+  kon.admin:
+    description: let you use /kon reload
+    default: op
